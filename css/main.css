@@ -5,9 +5,28 @@
 }
 
 .col-4{
-	padding:5px;
+	padding:10px;
+	width:30%;
 }
 
 .col-8{
+	padding:10px;
+	width:70%;
+}
+
+button{
+	width:100%;
+	padding:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.buttonRow{
+	padding:2px;
+	padding-right: 20px;
+}
+
+.logoRow{
+	text-align: center;
 	padding:10px;
 }
