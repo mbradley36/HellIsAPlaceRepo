@@ -1,0 +1,55 @@
+/* Fonts */
+$font-stack: Helvetica, sans-serif;
+
+/* Color Variables */
+$light-blue: #2FAFFF;
+$dark-blue: #120564;
+$violet: #540094;
+$light: #FFFFFF;
+$dark: #000000;
+
+
+body {
+    background-color: $dark;
+}
+
+/* NAVIGATION */
+#nav {
+    .logoRow {
+        
+    }
+    
+    button {
+        background-color: $violet;
+        color: $light;
+        width:100%;
+        padding:10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: none;
+    }
+    /* Hover Effects */
+    /* Forward */
+    .hvr-forward {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+    }
+    .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+      -webkit-transform: translateX(8px);
+      transform: translateX(8px);
+    }
+}
+
+
+.icon{
+	display:inline-block;
+	filter: grayscale(100%);
+}
+
