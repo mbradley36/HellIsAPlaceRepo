@@ -1,0 +1,13 @@
+.row{
+	width:100%;
+	display:flex;
+	padding:10px;
+}
+
+.col-4{
+	padding:5px;
+}
+
+.col-8{
+	padding:10px;
+}
